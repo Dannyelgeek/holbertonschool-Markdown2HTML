@@ -3,6 +3,7 @@
 import sys
 
 def start_script():
+    ''' take arguments from the console an verify if exist. '''
     arg = len(sys.argv)
 
     if arg < 3:
